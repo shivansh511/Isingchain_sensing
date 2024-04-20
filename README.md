@@ -1,7 +1,7 @@
 # Sensing with spin-s Ising Chain.
 
 This repository contains the code files used to generate the data in the paper [arxiv:2401.14853](https://arxiv.org/pdf/2401.14853.pdf).
-For the codes to function properly, please install the latest version of [Armadillo](https://arma.sourceforge.net/) and [QIClib](https://titaschanda.github.io/QIClib/documentation.html) package written in C++ for quantum computing tools.
+For the codes to function properly, please install the latest version of [Armadillo](https://arma.sourceforge.net/) C++ library for linear algebra and scietific computing and [QIClib](https://titaschanda.github.io/QIClib/documentation.html) package written in C++ for quantum computing tools based on "armadillo".
 Include the path of the "QIClib" file at the top of the codes.
 
 This repository includes two code files. Each file, in the beginning, has a global variable "spin." find it and chain it 0.5, 1.0, 1.5, 2, 2.5, and more to run the codes for different spins.
